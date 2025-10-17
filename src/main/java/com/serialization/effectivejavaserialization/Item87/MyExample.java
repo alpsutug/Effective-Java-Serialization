@@ -13,7 +13,7 @@ public class MyExample implements Serializable {
 
     //geçici,uçucu
     private transient String geciciDeger ;
-   // private transient static String gecici="a";  static veya final olunca değeri kalmıyor
+   // private transient static String gecici="a";  static veya final olunca transient değerinin değeri kalmıyor direk yazdırıyor
 
     public String getName() {
         return name;
@@ -39,6 +39,7 @@ public class MyExample implements Serializable {
         this.geciciDeger = geciciDeger;
     }
 
+    //manipüle etmek istendiğinde writeObject ve readObject el ile yazılır
     private void writeObject(ObjectOutputStream oos) throws IOException {
         String userName=name;
         String encryptedPassword = password + " salt";

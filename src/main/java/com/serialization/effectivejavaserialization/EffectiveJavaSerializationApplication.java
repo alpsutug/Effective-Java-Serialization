@@ -10,4 +10,6 @@ public class EffectiveJavaSerializationApplication {
         SpringApplication.run(EffectiveJavaSerializationApplication.class, args);
     }
 
+
+
 }

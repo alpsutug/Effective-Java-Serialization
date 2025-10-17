@@ -7,6 +7,7 @@ public class SerializationMain {
 
         // Kullanıcı Oluşturuyoruz
 
+
         User user = new User();
         user.setId(1);
         user.setName("Alpsu");
@@ -20,7 +21,6 @@ public class SerializationMain {
         FileOutputStream fileOutputStream = new FileOutputStream(filePath);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(user);
-
 
 
         // Okuma işlemini yapıyoruz

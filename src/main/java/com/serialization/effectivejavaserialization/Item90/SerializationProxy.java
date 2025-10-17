@@ -25,6 +25,8 @@ public class SerializationProxy implements Serializable {
         this.age = age;
     }
 
+    //serileştirilen sınıflar deserilize lurken çalışan metot
+
     public Object readResolve(){
         return new TruePerson(name, age);
     }

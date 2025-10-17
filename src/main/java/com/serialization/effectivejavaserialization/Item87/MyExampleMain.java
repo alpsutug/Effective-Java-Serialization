@@ -8,7 +8,7 @@ public class MyExampleMain {
         MyExample myExample = new MyExample();
         myExample.setName("alpsu");
         myExample.setPassword("gib06");
-        myExample.setGeciciDeger("bos");
+        myExample.setGeciciDeger("geçici");
 
         String filePath = "//Users/macbook/Documents/Effective-Java-Serialization/src/main/java/com/serialization/effectivejavaserialization/Item87/myExample.txt";
 
@@ -19,7 +19,7 @@ public class MyExampleMain {
 
         FileInputStream fileInputStream = new FileInputStream(filePath);
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-        MyExample myExampleDeser = null; // neden araştır
+        MyExample myExampleDeser = null;
 
         try
         {

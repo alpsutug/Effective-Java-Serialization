@@ -9,7 +9,7 @@ public class Main {
 
         TruePerson tp = new TruePerson("Alpsu", 25);
 
-        String filePath = "D:\\FS\\Learning\\E book\\effective-java\\src\\main\\java\\com\\effectivejava\\tutorial\\effectivejava\\itema90\\TruePerson.txt";
+        String filePath = "D:\\FS\\Learning\\E book\\effective-java\\src\\main\\java\\com\\effectivejava\\tutorial\\effectivejava\\Item90\\TruePerson.txt";
 
         FileOutputStream fileOutputStream = new FileOutputStream(filePath);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);

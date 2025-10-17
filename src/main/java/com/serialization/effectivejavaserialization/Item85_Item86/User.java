@@ -7,7 +7,8 @@ public class User implements Serializable {
     //Eğer serialVersionUID vermezsek de doğru çalışır
     //fakat sistem kendi yapısında göre kriptografik karama işlemiyle kendi
     // otomatik üretir bu da maliyeti artırır
-    private static final long serialVersionUID = 1L;
+
+   // private static final long serialVersionUID = 2L;
 
     private int id;
     private String name;

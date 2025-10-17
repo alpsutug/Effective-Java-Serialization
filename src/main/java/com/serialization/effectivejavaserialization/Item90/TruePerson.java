@@ -7,13 +7,10 @@ import java.io.Serializable;
 
 public class TruePerson extends WrongPerson implements Serializable {
 
-    /**
-     *
-     */
+
     private static final long serialVersionUID = 1L;
 
     public TruePerson(String name, int age) {
-        // TODO Auto-generated constructor stub
         super(name, age);
     }
 
